@@ -13,7 +13,6 @@ window.addEventListener('scroll', function() {
       verticalNavbar.classList.remove('show-navbar');
     }
   });
-  
   document.addEventListener('DOMContentLoaded', function() {
     var navLinks = document.querySelectorAll('.navbar a');
   
@@ -69,6 +68,5 @@ function typeText() {
 function startTypingAnimation() {
   typeText();
 }
-
 // Call startTypingAnimation function when needed
 startTypingAnimation();
